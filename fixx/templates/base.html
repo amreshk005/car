@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+<head>
+    
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>APP Plus: Free Responsive HTML 5 Template</title>
+    <meta name="description" content="A free responsive HTML 5 template with a clean style.">
+    <meta name="keywords" content="free template, html 5, responsive, clean, scss">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/touch/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/touch/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/touch/apple-touch-icon-144x144.png">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+        <script src="js/respond.js"></script>
+    <![endif]-->
+</head>
+<body class="no-js">
+{% block content %}
+{% endblock %}
+    <footer>
+        <div class="wrap">
+            <p>&copy; 2014 <strong>APP Plus</strong>, All Rights Reserved</p>
+            <p class="text-center"> Theme by <a href="https://themewagon.com/"> Themewagon </a> </p>
+        </div>
+        <!-- /.wrap -->
+    </footer>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/library.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/retina.js' %}"></script>
+</body>
+</html>
