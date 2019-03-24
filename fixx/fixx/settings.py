@@ -25,7 +25,7 @@ SECRET_KEY = 'mt1$j%*@d-pkhj4brc8(grtq+5u-9&91&(jik(twnt98ghv$@+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['68.183.87.30','127.0.0.1']
+ALLOWED_HOSTS = ['68.183.87.30','127.0.0.1','www.settlemycar.com','settlemycar.com']
 
 
 # Application definition
