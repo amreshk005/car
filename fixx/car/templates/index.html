@@ -6,12 +6,12 @@
         <div class="wrap">
             <img src="{% static 'upload/welcome.png' %}" height="532" width="252" alt="" class="header-img">
             <div class="header-wrapper">
-                <h1>APP Plus <span>Template</span></h1>
-                <p>With a smartphone and the right app, you can find any spot on Earth. But the best navigation apps do a lot more. Look out for that speed trap.</p>
-                <p class="autor"><a href="#">John Doe</a></p>
+                <h1>Settle My Car</h1>
+                <p>With a smartphone and the right app. You can find best mechanic at best price for your car. Book " Emergency Repair " or compare quotes of various garage/mechanics on realtime basis.</p>
+                <p class="autor"><a href="#"><h5>Ready to settle your car?</h5></a></p>
                 <div class="buttons-wrapper">
                     <a href="#" class="button">Download App</a>
-                    <a href="#" class="button button-stripe">Learn more</a>
+                    <a href="{% url 'car:privacy' %}" class="button button-stripe">Privacy Guideline</a>
                 </div>
             </div>
             <!-- /.header-wrapper -->
@@ -24,23 +24,24 @@
                 <div class="promo-wrapper clearfix">
                     <div class="promo-column">
                         <img src="{% static 'upload/pin.png' %}" height="32" width="24" alt="">
-                        <h5>Places</h5>
-                        <p>Seamlessly empower fully researched growth strategies and interoperable internal sources.</p>
+                        <h5>Location Based</h5>
+                        <p>We will enable you to go through all garages and make a comparison between them as per your location.</p>
                     </div>
                     <div class="promo-column">
                         <img src="{% static 'upload/settings.png' %}" height="32" width="33" alt="">
-                        <h5>Settings</h5>
-                        <p>Collaboratively administrate turnkey channels whereas virtual e-tailers an other media. </p>
+                        <h5>Imediate booking</h5>
+                        <p>Need mechanic immediately? 
+                            Don't worry we will provide you a right one.</p>
                     </div>
                     <div class="promo-column">
                         <img src="{% static 'upload/easy.png' %}" height="32" width="34" alt="">
-                        <h5>Easy</h5>
-                        <p>Interactively procrastinate high-payoff content without backward-compatible data. </p>
+                        <h5>GET quotes</h5>
+                        <p>Receive quotes from multiple garages for your car service/repair. Choose the best one for you.</p>
                     </div>
                     <div class="promo-column">
                         <img src="{% static 'upload/saturn.png' %}" height="32" width="32" alt="">
-                        <h5>Global</h5>
-                        <p>Credibly innovate granular internal or "organic" sources whereas high standards in web-readiness. </p>
+                        <h5>REPAIR LOG</h5>
+                        <p>Full detailed log of your current repair status and repair done earlier.</p>
                     </div>
                 </div>
             </div>
@@ -51,11 +52,12 @@
             <div class="wrap">
                 <div class="discover-content clearfix">
                     <h2>Discover</h2>
-                    <p>Human rights momentum. World problem solving turmoil, change movements environmental pursue these aspirations initiative donation. Policy dialogue, underprivileged accessibility, asylum visionary, prevention beneficiaries carbon emissions reductions empower.</p>
+                    <p>Tell us the service you need for your car. Sit and relax! We will help you to discover multiple garages/mechanics based on your location. Choose the best and affordable ones.</p>
                     <div class="discover-button clearfix">
-                        <a href="#" class="button button-download">
-                            <span class="button-download-title">Download for</span>
-                            <span class="button-download-subtitle">Apple iOS</span>
+                        <a href="{% url 'car:privacy' %}" class="button ">
+                            <span>Privacy Guideline</span>
+                            <!-- <span class="button-download-title">Download for</span> -->
+                            <!-- <span class="button-download-subtitle">Privacy Guideline</span> -->
                         </a>
                         <a href="#" class="button button-download android">
                             <span class="button-download-title">Download for</span>
@@ -77,14 +79,14 @@
                 <div class="video-title">Explore. APP Plus in action</div>
                 <div class="video-subtitle">Just try it for yourself</div>
                 <div class="video-block">
-                   <iframe src="https://player.vimeo.com/video/80370706" width="814" height="458" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                   <iframe src="https://www.youtube.com/embed/bEEL6XRWTso" width="814" height="458" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
                 <div class="video-share-wrapper clearfix">
                     <ul class="social-list clearfix">
                         <li class="video-share-title">Share it with your friends:</li>
-                        <li><a href="#" class="social-twitter">via <strong>Twitter</strong></a></li>
-                        <li><a href="#" class="social-facebook">via <strong>Facebook</strong></a></li>
-                        <li><a href="#" class="social-google">via <strong>Google+</strong></a></li>
+                        <li><a href="https://twitter.com/alomechanic" class="social-twitter">via <strong>Twitter</strong></a></li>
+                        <li><a href="https://www.facebook.com/alostorm/" class="social-facebook">via <strong>Facebook</strong></a></li>
+                        <li><a href="https://www.instagram.com/alo_cars/" class="social-google">via <strong>Instagram</strong></a></li>
                     </ul>
                 </div>
             </div>
@@ -95,21 +97,21 @@
             <div class="wrap">
                 <div class="tab">
                     <div class="box visible">
-                        <h4>People talking about <a href="#">#APP-PLUS</a></h4>
-                        <p>Join our #APP-PLUS adventure. Meet up in London this Saturday! Spread the word and join us for fun.</p>
+                        <h4>People talking about <a href="#">#settlemycar</a></h4>
+                        <p>Join our #settlemycar journey. Meetup in New Delhi this Saturday! Spread the word and join us for fun.</p>
                     </div>
-                    <div class="box">
+                    <!-- <div class="box">
                         <h4>Users loving <a href="#">#APP-PLUS</a></h4>
-                        <p>Joining this weekend's #APP-PLUS fun! @emmy_lemmy bring your dogs, we can make it a fun walk!</p>
-                    </div>
+                        <p>Join our #settlemycar journey. Meetup in New Delhi this Saturday! Spread the word and join us for fun.</p>
+                    </div> -->
                     <div class="box">
-                        <h4>Folks enjoying <a href="#">#APP-PLUS</a></h4>
-                        <p>Nothing to fear, the new #APP-PLUS has my tiny street covered, so cool and such a powerful app.</p>
-                    </div>
+                            <h4>Folks enjoying <a href="#">#settlemycar</a></h4>
+                            <p>Nothing to fear, the #settlemycar has become my perfect settler, so cool and such a powerful app.</p>
+                        </div>
                     <ul class="tabs">
                         <li class="active"></li>
                         <li></li>
-                        <li></li>
+                        
                     </ul>
                     <a href="#" class="tab-prev"></a>
                     <a href="#" class="tab-next"></a>
@@ -124,10 +126,10 @@
                     <h3>The Simplest UI</h3>
                     <ul>
                         <li class="clearfix"><img src="{% static 'upload/ico1.png' %}" height="32" width="32" alt=""><span>Fastest navigation</span></li>
-                        <li class="clearfix"><img src="{% static 'upload/ico2.png' %}" height="32" width="32" alt=""><span>Huge number of cities</span></li>
-                        <li class="clearfix"><img src="{% static 'upload/ico3.png' %}" height="32" width="32" alt=""><span>Only the best routes</span></li>
-                        <li class="clearfix"><img src="{% static 'upload/ico4.png' %}" height="32" width="32" alt=""><span>Beautiful locations</span></li>
-                        <li class="clearfix"><img src="{% static 'upload/ico5.png' %}" height="32" width="32" alt=""><span>Cloud sync</span></li>
+                        <li class="clearfix"><img src="{% static 'upload/ico2.png' %}" height="32" width="32" alt=""><span>Huge number of garages/mechanics</span></li>
+                        <li class="clearfix"><img src="{% static 'upload/ico3.png' %}" height="32" width="32" alt=""><span>Only the best facilitated garage/mechanics.</span></li>
+                        <li class="clearfix"><img src="{% static 'upload/ico4.png' %}" height="32" width="32" alt=""><span>Easy booking options.</span></li>
+                        <li class="clearfix"><img src="{% static 'upload/ico5.png' %}" height="32" width="32" alt=""><span>Secure Payment</span></li>
                     </ul>
                 </div>
                 <div class="simple-img">
@@ -139,7 +141,7 @@
         <!-- /.simple clearfix -->
         <div class="newsletter clearfix">
             <div class="wrap">
-                <div class="newsletter-title">our newsletter</div>
+                <div class="newsletter-title">our car care advice tips</div>
                 <div class="newsletter-form clearfix">
                     <form method="POST" onsubmit="return validation()" action="">
                         {% csrf_token %}
@@ -149,7 +151,7 @@
                         <input type="submit" class="button" value="Subscribe">
                     </form>
                 </div>
-                <p>If you want to recieve monthly updates from us just pop your email in the box. We think that spam is for jerks. And we are no jerks.</p>
+                <p>We are always ready to send you car care tips for free. You just need to fill the email box.</p>
             </div>
             <!-- /.wrap -->
         </div>
@@ -161,7 +163,7 @@
 <!-- DOWNLOAD BEGIN -->
 <section id="download" class="bg-color-main">
     <div class="container-fluid"> <a href="#wrap" class="goto">
-        <h2><div class="download"><i class="fa fa-apple"></i> Download App</div></h2>
+        <h2><div class="download"><i class="fa fa-android"></i> Download App</div></h2>
         </a> </div>
     <div class="block-bg"></div>
 </section>
