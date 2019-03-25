@@ -11,3 +11,7 @@ def register(request):
     else:
         form = SuscribeForm()    
     return render(request,'index.html',{'form':form})
+
+
+def privacy(request):
+    return render(request,'privacy_policy.html')
