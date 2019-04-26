@@ -7,7 +7,7 @@ def register(request):
         form = SuscribeForm(request.POST)
         if form.is_valid():
             register = form.save()
-            return HttpResponseRedirect('')
+            return HttpResponseRedirect('/')
     else:
         form = SuscribeForm()    
     return render(request,'index.html',{'form':form})
