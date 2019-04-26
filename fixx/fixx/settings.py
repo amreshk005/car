@@ -25,8 +25,8 @@ SECRET_KEY = 'mt1$j%*@d-pkhj4brc8(grtq+5u-9&91&(jik(twnt98ghv$@+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+# ALLOWED_HOSTS = ['35.154.133.117','127.0.0.1','www.settlemycar.com','settlemycar.com','ec2-13-234-29-36.ap-south-1.compute.amazonaws.com']
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
